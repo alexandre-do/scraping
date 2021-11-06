@@ -135,6 +135,8 @@ class Rte_google_search:
                 scraping_ = self.parse_feed(
                     query_, proxies=proxies, scraping_bee=scraping_bee
                 )
+                if len(scraping_['entries']) ==0:
+                    return outs
                 link_query, entries = scraping_["feed"]["link"], scraping_["entries"]
                 for entry in entries:
                     entry["link_query"] = link_query

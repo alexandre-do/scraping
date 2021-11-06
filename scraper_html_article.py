@@ -15,7 +15,7 @@ import hashlib
 
 warnings.filterwarnings("ignore")
 
-PATH = "/Users/alexandredo/GIT/scraper/chromedriver"
+PATH = "/Users/alexandredo/Desktop/GIT/scraping/chromedriver"
 USER_AGENT = "/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7"
 OPTIONS = webdriver.ChromeOptions()
 OPTIONS.add_experimental_option("excludeSwitches", ["enable-automation"])
