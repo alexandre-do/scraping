@@ -1,2 +1,2 @@
 # scraping
-This repertory contains the scraping methods to collect the data from internet 
+This repertory contains the scraping methods to collect the news data from Google News Search.  
